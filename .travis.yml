@@ -1,4 +1,4 @@
 language: python
 install:
     - pip install unittest2
-script: python /test/test_calculator.py
+script: python test_calculator.py
