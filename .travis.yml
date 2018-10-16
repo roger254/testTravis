@@ -1,6 +1,5 @@
 language: python
 install:
-    - pip install .
     - pip install nose coverage
     - pip install coveralls
     - pip install unittest2
