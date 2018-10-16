@@ -4,3 +4,6 @@ install:
     - pip install coveralls
     - pip install unittest2
 script: python test_calculator.py nosetests --with-coverage --cover-package pypiview
+
+after_sucess:
+   coveralls
