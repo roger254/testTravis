@@ -7,4 +7,5 @@ install:
 script:
     - python test_calculator.py
     - coverage run --source=home test_calculator.py
-after_sucess: coveralls
+after_sucess: 
+  - coveralls
